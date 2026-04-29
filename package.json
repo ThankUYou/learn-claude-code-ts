@@ -1,8 +1,12 @@
 {
   "name": "learn-claude-code-ts",
-  "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+      "s00": "bun run agents/s00_sdk_basic_use.ts",
+      "s01": "bun run agents/s01_agent_loop.ts"
+  },
+
   "devDependencies": {
     "@types/bun": "latest"
   },
